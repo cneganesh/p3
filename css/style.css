@@ -3555,3 +3555,11 @@ Generic layout (demo looks)
 }
 
 /* timeline cards end */
+
+
+.clients .col-lg-5{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
