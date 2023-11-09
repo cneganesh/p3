@@ -2658,7 +2658,9 @@ textarea {
   .heading{
     font-size: 9vw;
   }
-
+  .article-wrapper .article-body h1{
+    font-size: 7vw;
+  }
 
   .section-title {
     font-size: 7vw;
@@ -3530,7 +3532,9 @@ Generic layout (demo looks)
   }
   
 }
-
+.article-body h1{
+  font-weight:bolder;
+}
 @container card (min-width: 380px) {
   .article-wrapper {
     display: grid;
@@ -3539,6 +3543,9 @@ Generic layout (demo looks)
   }
   .article-body {
     padding-left: 0;
+  }
+  .article-body h1{
+    font-weight: bold;
   }
   figure {
     width: 100%;
